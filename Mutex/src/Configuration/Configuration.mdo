@@ -16,7 +16,6 @@
   <defaultRunMode>ManagedApplication</defaultRunMode>
   <usePurposes>PersonalComputer</usePurposes>
   <scriptVariant>Russian</scriptVariant>
-  <vendor>https://almaz-sharipov.ru</vendor>
   <version>1.0.0.1</version>
   <usedMobileApplicationFunctionalities>
     <functionality>
@@ -32,14 +31,6 @@
     <key>ru</key>
     <value>Демо конфигурация многопоточного выполения задачи вычисления простых числел с использованием mutex.</value>
   </detailedInformation>
-  <copyright>
-    <key>ru</key>
-    <value>(с) 2023 Шарипов Алмаз Фандусович</value>
-  </copyright>
-  <vendorInformationAddress>
-    <key>ru</key>
-    <value>https://almaz-sharipov.ru</value>
-  </vendorInformationAddress>
   <dataLockControlMode>Managed</dataLockControlMode>
   <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
   <modalityUseMode>DontUse</modalityUseMode>
