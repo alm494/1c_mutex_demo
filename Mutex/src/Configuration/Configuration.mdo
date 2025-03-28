@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e258e538-44e8-4f2d-bfc8-7270ff23440d">
+  <name>MutexDemo</name>
+  <synonym>
+    <key>ru</key>
+    <value>Mutex demo</value>
+  </synonym>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="92ac66b2-03b4-4e8b-a056-dc0dc7d3736d"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="4177363d-4177-48d2-9c68-31063c4f879b"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="f454eb89-3a85-4358-9048-d82b58900602"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="57c43d7a-7098-4cef-9bac-b29245e99d79"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="a5a190a4-b746-414b-8486-00abf5c1bf41"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="6e2d9489-99ac-4418-885f-513dda588afe"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="39b432d5-ba83-4034-8748-491fbb0b1db5"/>
+  <configurationExtensionCompatibilityMode>8.3.25</configurationExtensionCompatibilityMode>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <vendor>https://almaz-sharipov.ru</vendor>
+  <version>1.0.0.1</version>
+  <usedMobileApplicationFunctionalities>
+    <functionality>
+      <use>true</use>
+    </functionality>
+    <functionality>
+      <functionality>OSBackup</functionality>
+      <use>true</use>
+    </functionality>
+  </usedMobileApplicationFunctionalities>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <detailedInformation>
+    <key>ru</key>
+    <value>Демо конфигурация многопоточного выполения задачи вычисления простых числел с использованием mutex.</value>
+  </detailedInformation>
+  <copyright>
+    <key>ru</key>
+    <value>(с) 2023 Шарипов Алмаз Фандусович</value>
+  </copyright>
+  <vendorInformationAddress>
+    <key>ru</key>
+    <value>https://almaz-sharipov.ru</value>
+  </vendorInformationAddress>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
+  <modalityUseMode>DontUse</modalityUseMode>
+  <synchronousPlatformExtensionAndAddInCallUseMode>DontUse</synchronousPlatformExtensionAndAddInCallUseMode>
+  <compatibilityMode>8.3.22</compatibilityMode>
+  <languages uuid="9dd4c4c8-02f3-4e0d-b587-a89ac1f865e2">
+    <name>Русский</name>
+    <synonym>
+      <key>ru</key>
+      <value>Русский</value>
+    </synonym>
+    <languageCode>ru</languageCode>
+  </languages>
+  <commonModules>CommonModule.ДлительныеРасчеты</commonModules>
+  <dataProcessors>DataProcessor.ТестМьютекс</dataProcessors>
+  <informationRegisters>InformationRegister.Мьютекс</informationRegisters>
+</mdclass:Configuration>
